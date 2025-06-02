@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - RunUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar dark">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="RunUp Logo" style="max-width: 80%; height: auto; border-radius: 1.2rem;">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="pricing.html">Tarifs</a></li>
+                <li><a href="courses.html">Courses</a></li>
+            </ul>
+            <a href="pricing.html" class="join-btn">Rejoindre</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero light" style="min-height: 30vh;">
+          <h1 class="accent">Inscris-toi gratuitement</h1>
+          <p class="hero-sub">Rejoins-nous en remplissant le formulaire ci-dessous.</p>
+        </section>
+        <div class="form-section-wrapper">
+          <section class="pricing-section"">
+            <h2>Inscription</h2>
+            <p>Profite d'un accès complet à toutes les fonctionnalités de RunUp pendant 15 jours, sans engagement.</p>
+            <form method="post" name="Quiz" action="#" class="box white-box" id="QuizId" onsubmit="return handleForm(event);">
+              <fieldset id="informations">
+                <legend>Vos informations</legend>
+                <div class="form-group">
+                  <label for="nom">Nom :</label>
+                  <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                  <label for="prenom">Prénom :</label>
+                  <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                  <label for="naissance">Date de naissance :</label>
+                  <input type="date" id="naissance" name="naissance" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Adresse mail :</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="telephone">Numéro de téléphone :</label>
+                  <input type="tel" id="telephone" name="telephone" required>
+                </div>
+                <div class="form-group">
+                  <label for="ville">Viile :</label>
+                  <input type="ville" id="ville" name="ville" required>
+                </div>
+                  <input type="submit" id="startBtn" class="plan-btn" value="Validez les informations" />
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <nav class="footer-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="RunUp Logo" style="max-width: 80%; height: auto; border-radius: 1.2rem;">
+                </a>
+            </div>
+            <div class="footer-info">
+                <p>contact@runup.fr</p>
+                <p>&copy; 2025 Run Up tous droits réservés</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="pricing.html">Tarifs</a></li>
+                <li><a href="courses.html">Courses</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

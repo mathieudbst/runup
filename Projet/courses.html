@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunUp - Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="courses-html">
+    <header>
+        <nav class="navbar dark">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="RunUp Logo" style="max-width: 80%; height: auto; border-radius: 1.2rem;">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="pricing.html">Tarifs</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">À propos</a></li>
+            </ul>
+            <a href="pricing.html" class="join-btn">Rejoindre</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero dark">
+            <h1 class="accent">Trouve ta prochaine course</h1>
+            <p class="hero-sub">Explore les courses de running près de chez toi et partout dans le monde.</p>
+        </section>
+
+        <div class="courses-section-wrapper">
+            <section class="courses-section">
+                <h2>Liste des courses</h2>
+                <div class="filter-controls">
+                    <input type="text" id="course-search" placeholder="Rechercher une course...">
+                    
+                    <select id="distance-filter">
+                        <option value="all">Toutes distances</option>
+                        <option value="10km">10 km</option>
+                        <option value="21km">21.1 km</option>
+                        <option value="42km">42.195 km</option>
+                        <option value="other">Autres distances</option>
+                    </select>
+
+                    <select id="type-filter">
+                        <option value="all">Tous types</option>
+                        <option value="Route">Route</option>
+                        <option value="Trail">Trail</option>
+                    </select>
+
+                    <select id="location-filter">
+                         <option value="all">Toutes localisations</option>
+                        <option value="Paris, France">Paris, France</option>
+                        <option value="Lyon, France">Lyon, France</option>
+                        <option value="Chamonix, France">Chamonix, France</option>
+                        <option value="New York, États-Unis">New York, États-Unis</option>
+                        <option value="Berlin, Allemagne">Berlin, Allemagne</option>
+                        <option value="Tokyo, Japon">Tokyo, Japon</option>
+                        <option value="Boston, États-Unis">Boston, États-Unis</option>
+                        <option value="Londres, Royaume-Uni">Londres, Royaume-Uni</option>
+                        <option value="Chicago, États-Unis">Chicago, États-Unis</option>
+                        <option value="Barcelone, Espagne">Barcelone, Espagne</option>
+                        <option value="Valence, Espagne">Valence, Espagne</option>
+                        <option value="Lisbonne, Portugal">Lisbonne, Portugal</option>
+                        <option value="Strasbourg, France">Strasbourg, France</option>
+                        <option value="Marseille, France">Marseille, France</option>
+                        <option value="Simplon, Suisse">Simplon, Suisse</option>
+                        <option value="Île de la Réunion, France">Île de la Réunion, France</option>
+                        <option value="Millau, France">Millau, France</option>
+                    </select>
+
+                </div>
+                <div class="courses-list">
+                    <div class="course-item">
+                        <h3>Marathon de Paris</h3>
+                        <p>Date: 7 avril 2024</p>
+                        <p>Lieu: Paris, France</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Semi-Marathon de Lyon</h3>
+                        <p>Date: 29 septembre 2024</p>
+                        <p>Lieu: Lyon, France</p>
+                        <p>Distance: 21.1 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Ultra-Trail du Mont-Blanc</h3>
+                        <p>Date: Fin août 2024</p>
+                        <p>Lieu: Chamonix, France</p>
+                        <p>Distance: 171 km</p>
+                        <p>Type: Trail</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Semi-Marathon de Paris</h3>
+                        <p>Date: 3 mars 2024</p>
+                        <p>Lieu: Paris, France</p>
+                        <p>Distance: 21.1 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Marathon de New York</h3>
+                        <p>Date: 3 novembre 2024</p>
+                        <p>Lieu: New York, États-Unis</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Marathon de Berlin</h3>
+                        <p>Date: 29 septembre 2024</p>
+                        <p>Lieu: Berlin, Allemagne</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Tokyo Marathon</h3>
+                        <p>Date: 3 mars 2024</p>
+                        <p>Lieu: Tokyo, Japon</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Boston Marathon</h3>
+                        <p>Date: 15 avril 2024</p>
+                        <p>Lieu: Boston, États-Unis</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>London Marathon</h3>
+                        <p>Date: 21 avril 2024</p>
+                        <p>Lieu: Londres, Royaume-Uni</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Chicago Marathon</h3>
+                        <p>Date: 13 octobre 2024</p>
+                        <p>Lieu: Chicago, États-Unis</p>
+                        <p>Distance: 42.195 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Semi-Marathon de Barcelone</h3>
+                        <p>Date: 11 février 2024</p>
+                        <p>Lieu: Barcelone, Espagne</p>
+                        <p>Distance: 21.1 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Semi-Marathon de Valence</h3>
+                        <p>Date: 27 octobre 2024</p>
+                        <p>Lieu: Valence, Espagne</p>
+                        <p>Distance: 21.1 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Semi-Marathon de Lisbonne</h3>
+                        <p>Date: 17 mars 2024</p>
+                        <p>Lieu: Lisbonne, Portugal</p>
+                        <p>Distance: 21.1 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>10 km de Strasbourg</h3>
+                        <p>Date: 12 mai 2024</p>
+                        <p>Lieu: Strasbourg, France</p>
+                        <p>Distance: 10 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>10 km de Marseille</h3>
+                        <p>Date: 26 mai 2024</p>
+                        <p>Lieu: Marseille, France</p>
+                        <p>Distance: 10 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Trail du Simplon</h3>
+                        <p>Date: 14 septembre 2024</p>
+                        <p>Lieu: Simplon, Suisse</p>
+                        <p>Distance: 50 km</p>
+                        <p>Type: Trail</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Grand Raid de la Réunion (La Diagonale des Fous)</h3>
+                        <p>Date: Octobre 2024</p>
+                        <p>Lieu: Île de la Réunion, France</p>
+                        <p>Distance: 165 km</p>
+                        <p>Type: Trail</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>EcoTrail Paris</h3>
+                        <p>Date: 16 mars 2024</p>
+                        <p>Lieu: Paris, France</p>
+                        <p>Distance: 80 km</p>
+                        <p>Type: Trail</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Lyon Urban Trail</h3>
+                        <p>Date: 7 avril 2024</p>
+                        <p>Lieu: Lyon, France</p>
+                        <p>Distance: 35 km</p>
+                        <p>Type: Trail</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Course Eiffage du Viaduc de Millau</h3>
+                        <p>Date: 26 mai 2024</p>
+                        <p>Lieu: Millau, France</p>
+                        <p>Distance: 23 km</p>
+                        <p>Type: Route</p>
+                    </div>
+                     <div class="course-item">
+                        <h3>Les Templiers</h3>
+                        <p>Date: Octobre 2024</p>
+                        <p>Lieu: Millau, France</p>
+                        <p>Distance: 78 km</p>
+                        <p>Type: Trail</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <nav class="footer-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="RunUp Logo" style="max-width: 80%; height: auto; border-radius: 1.2rem;">
+                </a>
+            </div>
+            <div class="footer-info">
+                <p>contact@runup.fr</p>
+                <p>&copy; 2025 Run Up tous droits réservés</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="pricing.html">Tarifs</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">À propos</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
